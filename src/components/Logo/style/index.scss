@@ -1,0 +1,22 @@
+.container-logo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 60px;
+
+    &>span {
+        font-size: 25px;
+        text-align: center;
+        font-family: "Arial";
+        text-transform: uppercase;
+
+        &:first-child {
+            color: #0E24F1;
+        }
+        &:last-child {
+            color: #FF7A00;
+        }
+    }
+
+}
