@@ -10,7 +10,7 @@ const Router: FC<IRouter> = () => {
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/busca" element={<Search />} />
-            <Route path="/new" element={<New />} />
+            <Route path="/novo" element={<New />} />
         </Routes>
     )
 }
